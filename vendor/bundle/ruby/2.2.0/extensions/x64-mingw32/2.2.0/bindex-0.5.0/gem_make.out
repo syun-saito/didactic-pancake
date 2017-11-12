@@ -1,0 +1,12 @@
+C:/Ruby22-x64/bin/ruby.exe -r ./siteconf20171111-10248-imman6.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+generating cruby-x64-mingw32.def
+compiling cruby.c
+linking shared-object bindex/cruby.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20171111-10248-1xjdf4b/bindex
